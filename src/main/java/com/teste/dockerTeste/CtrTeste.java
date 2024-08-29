@@ -49,6 +49,6 @@ public class CtrTeste {
                 ex.printStackTrace();
             }
         }
-        return ResponseEntity.ok("Tudo funcionando !!! - alterado 21:45" + minhaVariavel);
+        return ResponseEntity.ok("Tudo funcionando !!! - alterado 22:23 git" + minhaVariavel);
     }
 }
