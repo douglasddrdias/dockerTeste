@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+  dockerteste:
+    image: dockerteste
+    environment:
+      - minha_variavel=${minha_variavel}
+    volumes:
+      - /home/douglas/chave:/app/arquivos
+    build: .
+    working_dir: /app
+    network_mode: "host"
