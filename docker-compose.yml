@@ -1,7 +1,7 @@
 version: '3.9'
 services:
   dockerteste:
-    image: dockerteste
+    image: douglasddrdias/dockerteste
     environment:
       - minha_variavel=${minha_variavel}
     volumes:
@@ -9,3 +9,4 @@ services:
     build: .
     working_dir: /app
     network_mode: "host"
+    container_name: "docker_teste_git_hub"
