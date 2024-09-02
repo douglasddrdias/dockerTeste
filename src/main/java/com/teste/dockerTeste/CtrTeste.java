@@ -49,6 +49,6 @@ public class CtrTeste {
                 ex.printStackTrace();
             }
         }
-        return ResponseEntity.ok("Tudo funcionando ! agora com tag- 2" + minhaVariavel);
+        return ResponseEntity.ok("Tudo funcionando !!!" + minhaVariavel);
     }
 }
