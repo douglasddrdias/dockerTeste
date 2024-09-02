@@ -1,7 +1,7 @@
 version: '3.9'
 services:
   dockerteste:
-    image: douglasddrdias/dockerteste
+    image: douglasddrdias/dockerteste-1.0.1
     environment:
       - minha_variavel=${minha_variavel}
     volumes:
